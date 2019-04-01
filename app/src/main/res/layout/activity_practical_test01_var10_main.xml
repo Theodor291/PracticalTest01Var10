@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PracticalTest01Var10MainActivity">
+
+
+    <TextView
+        android:id="@+id/next_term_edit_text"
+        android:layout_width="280dp"
+        android:layout_height="69dp"
+        android:editable="true"
+        android:text="Next Term"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <Button
+        android:id="@+id/add_button"
+        android:layout_width="130dp"
+        android:layout_height="70dp"
+        android:text="ADD"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <TextView
+        android:id="@+id/all_terms_edit_text"
+        android:layout_width="394dp"
+        android:layout_height="61dp"
+        android:editable="false"
+        android:text="All terms"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <Button
+        android:id="@+id/compute_button"
+        android:layout_width="173dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="COMPUTE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="191dp" />
+
+
+</android.support.constraint.ConstraintLayout>
